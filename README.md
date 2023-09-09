@@ -12,6 +12,11 @@ Welcome to my personal NeoVim setup, crafted by a neovim rookie and suited for m
 - **Syntax Highlighting with TreeSitter**: Enhanced code readability and understanding using [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
 - **Aesthetic with TokyoNight**: Who doesn't likes a dark theme in cli coding experience [tokyonight](https://github.com/folke/tokyonight.nvim)
 - **Git Integration with Fugitive**: manage and navigate Git with [fugitive.vim](https://github.com/tpope/vim-fugitive).
+- **Intelligent Completion with nvim-cmp**: Auto-completion, snippets and more with [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
+- **LSP Configurations with nvim-lspconfig**: Setting up various language servers easily with [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig).
+- **Python Development with Pyright**: Static type checking for Python with the [Pyright language server](https://github.com/microsoft/pyright).
+- **JavaScript & TypeScript Development with tsserver**: Rich features and IntelliSense for JS and TS via [typescript-language-server](https://github.com/typescript-language/typescript-language-server).
+ 
 
 ---
 

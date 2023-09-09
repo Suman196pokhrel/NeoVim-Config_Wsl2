@@ -14,6 +14,7 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
+  use 'neovim/nvim-lspconfig'
   use 'folke/tokyonight.nvim'
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
@@ -25,6 +26,9 @@ return require('packer').startup(function(use)
   requires = { {'nvim-lua/plenary.nvim'} }
     }
   use 'tpope/vim-fugitive'
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
