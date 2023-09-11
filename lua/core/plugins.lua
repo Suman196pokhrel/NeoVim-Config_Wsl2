@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
   -- My plugins here
   use 'neovim/nvim-lspconfig'
   use 'folke/tokyonight.nvim'
+  use 'dracula/vim'
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
   use 'nvim-lualine/lualine.nvim'
