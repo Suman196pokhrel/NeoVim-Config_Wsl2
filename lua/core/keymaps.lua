@@ -14,3 +14,7 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab=true
 vim.opt.shiftround=true
+
+
+-- to quit terminal mode custom binding
+vim.api.nvim_set_keymap('t','<ESC>','<C-\\><C-n>',{noremap=true,silent=true})
