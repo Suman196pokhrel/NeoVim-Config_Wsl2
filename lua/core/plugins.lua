@@ -30,6 +30,9 @@ return require('packer').startup(function(use)
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
   use 'hrsh7th/cmp-buffer'
+  use 'windwp/nvim-autopairs'
+  use 'hrsh7th/vim-vsnip'
+  use 'hrsh7th/vim-vsnip-integ'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
